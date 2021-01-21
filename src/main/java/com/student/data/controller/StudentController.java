@@ -23,7 +23,6 @@ import com.student.data.model.Student;
 import com.student.data.repository.StudentRepository;
 import com.student.data.util.JavaUtil;
 
-
 @RestController
 @RequestMapping("/api")
 public class StudentController {
