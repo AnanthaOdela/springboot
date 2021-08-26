@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/student-data-0.0.1-SNAPSHOT.jar student-data-0.0.1-SNAPSHOT.jar
+ADD target/student-data.jar student-data.jar
 EXPOSE 9090
-ENTRYPOINT ["java","-jar","student-data-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","student-data.jar"]
