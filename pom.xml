@@ -65,6 +65,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>student-data</finalName>
 	</build>
 <repositories>
     <repository>
